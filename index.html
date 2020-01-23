@@ -21,14 +21,50 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-3">
         <a href="#" class="navbar-brand">User Dashboard</a>
 
-        <button class="btn btn-light mr-auto">Log In</button>
+        <button class="btn btn-light mr-auto">#login</button>
 
         <span class="text-light align-middle">Don't have an account?</span>
         <button class="btn btn-light ml-3">Register</button>
     </nav>
+
+    <div class="container-fluid">
+        <div class="row p-3 align-items-start">
+            <div class="col-4 py-3 px-4 bg-dark rounded">
+                <form class="my-3">
+                    <div class="form-group">
+                        <label for="email1" class="text-secondary">Username or Email:</label>
+                        <input type="text" class="form-control bg-dark text-light"
+                            placeholder="@username | example@domain.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password1" class="text-secondary">Password:</label>
+                        <input type="password" class="form-control bg-dark text-light" placeholder="Password">
+                        <small><a href="" class="form-text text-muted mt-2">Forgot your password? We can
+                                help!</a></small>
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input">
+                        <label for="remember-me" class="form-check-label text-secondary">Remember Me!</label>
+                    </div>
+
+                    <button class="btn btn-light">Log In</button>
+                </form>
+            </div>
+
+            <div class="col-5 ml-3 p-4 bg-dark text-light rounded">
+                <h1>User Dashboard</h1>
+                <p>What does it do?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sint dolores commodi nesciunt
+                    minus ipsum, atque labore praesentium, nemo ea ducimus inventore, nulla cumque deserunt. Dignissimos
+                    esse hic officiis fuga!</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
